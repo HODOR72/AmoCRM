@@ -17,7 +17,7 @@ const FormButtons: FC<IFormButtons> = ({
 	isBig = false,
 }) => {
 	const [checked, setChecked] = useState(true)
-	
+
 	return (
 		<>
 			<p className={styles.text}>{title}</p>

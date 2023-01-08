@@ -33,7 +33,7 @@
 			.intro {
 				@apply flex flex-col;
 				> p:first-child {
-					@apply text-2xl mb-5  ;
+					@apply text-2xl mb-5;
 					> span {
 						@apply font-bold pl-1;
 						background: linear-gradient(#fcb045 36.99%, #fd1d1d 100%);
@@ -55,7 +55,7 @@
 				@apply max-w-[900px] mx-auto;
 				.info {
 					> p {
-						@apply mb-[30px] max-w-[260px] ;
+						@apply mb-[30px] max-w-[260px];
 					}
 					> ul {
 						@apply flex flex-wrap justify-between mb-10 xl2:flex-col;
@@ -72,5 +72,4 @@
 			}
 		}
 	}
-	
 }
