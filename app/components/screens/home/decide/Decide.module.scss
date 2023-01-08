@@ -1,0 +1,69 @@
+.decide {
+	@apply relative mb-28 xxl2:mb-20 xl2:mb-10;
+	.intro {
+		@apply flex mb-[50px] xl2:mb-7;
+		> p:first-child {
+			@apply max-w-[460px] w-full text-2xl mb-[50px] mr-[30px] xl2:text-center xl2:mx-auto xl2:mb-0;
+			> span {
+				@apply font-bold;
+				background: linear-gradient(#fcb045 36.99%, #fd1d1d 100%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+		}
+		> p:last-child {
+			@apply max-w-[322px] xl2:hidden;
+		}
+	}
+	.info {
+		@apply flex justify-between mb-[74px] gap-1 flex-wrap xxl2:justify-around xl3:mb-5;
+		> div {
+			@apply max-w-[300px];
+			> h4 {
+				@apply font-medium mb-[30px];
+			}
+			> p {
+				font-family: 'Montserrat';
+				@apply mb-5 pl-[30px] relative;
+			}
+			> p::after {
+				content: '';
+				background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+				@apply w-5 h-[1px] absolute top-2.5 left-0;
+			}
+			> p:last-child {
+				@apply mb-0;
+			}
+		}
+		> div:last-child {
+			@apply pt-[55px] xl3:pt-[26px] sm:hidden;
+		}
+	}
+	> div:last-child {
+		> p {
+			@apply text-2xl mb-[50px] mr-[30px] sm:text-center sm:mx-auto sm:mb-5;
+			> span {
+				@apply font-bold;
+				background: linear-gradient(#fcb045 36.99%, #fd1d1d 100%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+		}
+		> div {
+			@apply flex justify-between items-center flex-wrap gap-3 xxl2:justify-around;
+			> div {
+				@apply max-w-[290px] xxl3:text-center;
+				> img {
+					@apply mb-5 xxl3:mx-auto xxl3:mb-2;
+				}
+				> p:first-of-type {
+					@apply mb-5 xxl3:mb-3;
+				}
+				> p:last-child {
+					font-family: 'Montserrat';
+					@apply font-normal leading-5;
+				}
+			}
+		}
+	}
+}

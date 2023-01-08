@@ -1,0 +1,46 @@
+.navigation {
+	@apply flex justify-between items-center xl:pb-2.5;
+	> ul {
+		@apply flex justify-between items-center;
+	}
+	.menu {
+		transition: all 0.3s ease;
+		@apply flex justify-between w-[85%] xl:fixed xl:flex-col xl:h-full xl:w-full xl:top-0 xl:left-0 xl:bg-black xl:z-40 xl:justify-start xl:pt-32 xl:px-2.5 xl:opacity-0 xl:pointer-events-none;
+		.nav {
+			@apply max-w-lg flex justify-between w-full xxl2:max-w-md xl:flex-col xl:mx-auto xl:text-center;
+			> li {
+				@apply xl:mb-5;
+				> a {
+					@apply xl:text-3xl;
+				}
+			}
+		}
+		> div {
+			@apply xl:text-center mb-5;
+			> a {
+				@apply xl:text-3xl;
+			}
+		}
+		.soical {
+			@apply max-w-[75px] w-full flex justify-between xl:mx-auto xl:max-w-[160px];
+			> li {
+				> a {
+					transition: all 0.3s ease;
+					@apply opacity-70;
+					> img {
+						@apply xl:w-8 xl:h-8;
+					}
+				}
+				> a:hover {
+					@apply opacity-100;
+				}
+			}
+		}
+	}
+	.activeMenu {
+		@apply opacity-100 pointer-events-auto;
+	}
+	.hamburger {
+		@apply hidden relative z-50 xl:block;
+	}
+}

@@ -1,0 +1,24 @@
+.about {
+	@apply mb-28 pt-10 relative xxl2:mb-20 xl2:mb-10;
+	> p {
+		@apply max-w-[400px] w-full text-2xl mb-[50px] sm:text-center sm:mx-auto sm:mb-5;
+		> span {
+			@apply font-bold;
+			background: linear-gradient(#fcb045 36.99%, #fd1d1d 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+	}
+	> div {
+		@apply flex justify-between items-center gap-10 flex-wrap xxl:justify-around;
+		> div {
+			@apply sm:text-center sm:mb-2;
+			> p:first-of-type {
+				@apply font-bold text-4xl;
+				background: linear-gradient(#fcb045 27.14%, #ff3f78 121.36%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+		}
+	}
+}

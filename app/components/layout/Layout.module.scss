@@ -1,0 +1,15 @@
+.layout {
+	border-left: 1px solid rgba(219, 166, 255, 0.075);
+	border-right: 1px solid rgba(219, 166, 255, 0.075);
+	@apply max-w-[1420px] mx-auto py-14 relative z-10 max:px-2.5 xxl:py-6 max:border-none;
+}
+.layout::after {
+	content: '';
+	border-left: 1px solid rgba(219, 166, 255, 0.075);
+	@apply absolute left-[395px] -z-10 top-0 h-full max:left-[120px] xxl2:hidden;
+}
+.layout::before {
+	content: '';
+	border-right: 1px solid rgba(219, 166, 255, 0.075);
+	@apply absolute right-[335px] -z-10 top-0 h-full max:right-[120px] xxl2:hidden;
+}

@@ -1,0 +1,55 @@
+.header {
+	@apply flex justify-between items-center flex-wrap xxl:justify-around;
+	.intro {
+		@apply max-w-[360px] xl:text-center;
+		> h1 {
+			@apply font-normal text-5xl mb-[30px] xl:mb-2.5 sm3:text-3xl sm3:mb-0;
+			> span {
+				background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%),
+					#e4e5ea;
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				@apply font-black leading-[58px];
+			}
+		}
+		> p {
+			font-family: 'Montserrat';
+			@apply text-lg max-w-[350px] w-full;
+		}
+	}
+	.canvas {
+		@apply w-[500px] h-[500px] xl2:h-[400px];
+	}
+	.info {
+		@apply max-w-[400px] w-full xxl:mx-auto xxl:max-w-full xl2:max-w-[400px];
+		> h2 {
+			@apply font-medium text-lg mb-10 text-right xxl:text-center xxl:text-2xl xl:mb-5;
+			> span {
+				background: linear-gradient(#fcb045 36.99%, #fd1d1d 100%),
+					linear-gradient(0deg, #e4e5ea, #e4e5ea);
+
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				@apply uppercase text-xl font-medium;
+			}
+		}
+		> ul {
+			@apply flex flex-wrap justify-end xxl:justify-between sm3:justify-center;
+			> li {
+				@apply max-w-[185px] mb-[30px] text-right xxl:max-w-fit w-full xxl:text-center xl2:max-w-[185px];
+				> h3 {
+					@apply text-lg tracking-wider uppercase font-medium mb-1.5;
+				}
+				> p {
+					font-family: 'Montserrat';
+				}
+			}
+		}
+		> div {
+			@apply flex;
+			> button {
+				@apply xxl:mx-auto;
+			}
+		}
+	}
+}

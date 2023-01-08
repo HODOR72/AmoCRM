@@ -1,0 +1,27 @@
+.text {
+	@apply mb-5;
+}
+.wrapper {
+	@apply flex items-center mb-10 sm:flex-wrap sm:gap-4 sm3:gap-2;
+	.radioBtn {
+		@apply mr-5 sm:mr-0;
+		> input {
+			@apply hidden;
+		}
+		> label {
+			transition: all 0.3s ease;
+			@apply cursor-pointer inline-block select-none p-2.5 rounded-md border-blackLight border xl2:text-xs;
+		}
+		> input[type='radio']:checked + label {
+			@apply bg-blue;
+		}
+		> input[type='radio']:checked + label:hover {
+			box-shadow: 0px 0px 40px 6px rgba(64, 119, 243, 0.3);
+		}
+	}
+	.radioBtnBig {
+		> label {
+			@apply p-[30px] xl2:p-4;
+		}
+	}
+}

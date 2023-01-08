@@ -1,0 +1,7 @@
+.button {
+	transition: all 0.3s ease;
+	@apply bg-blue py-5 max-w-[262px] w-full ml-auto rounded-xl font-medium sm:py-3 sm:max-w-[232px];
+}
+.button:hover {
+	box-shadow: 0px 0px 40px 6px rgba(64, 119, 243, 0.3);
+}

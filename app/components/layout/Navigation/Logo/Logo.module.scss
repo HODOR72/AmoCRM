@@ -1,0 +1,7 @@
+.logo {
+	@apply max-w-[165px] relative z-50;
+	> p {
+		font-family: 'Montserrat';
+		@apply text-[10px] leading-3 font-light pt-2.5;
+	}
+}

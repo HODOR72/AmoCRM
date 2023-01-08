@@ -1,0 +1,26 @@
+.text {
+	font-family: 'Montserrat';
+	@apply text-darkGray mb-2.5 block;
+}
+
+.input {
+	border: 1px solid #25262c;
+	background: rgba(14, 16, 20, 0.6);
+	@apply mb-[30px] py-5 px-3.5 outline-none font-normal;
+}
+.input::placeholder {
+	@apply text-darkGray text-sm;
+}
+.wrapper {
+	@apply flex items-center sm:flex-col sm:justify-center;
+	> button {
+		@apply ml-0;
+	}
+	> p {
+		font-family: 'Montserrat';
+		@apply text-xs ml-[31px] w-[420px] sm:ml-0 sm:pt-2 sm:text-center sm2:w-full;
+		> a {
+			@apply underline pl-1;
+		}
+	}
+}

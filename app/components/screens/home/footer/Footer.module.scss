@@ -1,0 +1,39 @@
+.footer {
+	@apply pt-10;
+	> img {
+		@apply mb-10 sm2:mx-auto sm2:mb-5;
+	}
+	> div {
+		@apply flex justify-between gap-2 xl2:gap-0 xl2:flex-wrap;
+		> div {
+			@apply flex flex-col xl:w-1/2 xl2:text-center xl2:mb-2 sm2:w-full;
+			> h5 {
+				@apply text-darkGray text-sm uppercase font-bold mb-5 xl2:mb-3;
+			}
+			.soical {
+				@apply flex my-5 justify-end gap-2 xl2:justify-center xl2:my-3;
+				> li {
+					> a {
+						@apply opacity-70;
+					}
+					> a:hover {
+						@apply opacity-100;
+					}
+				}
+			}
+		}
+		> div:nth-child(3) {
+			@apply pt-[42px] xl2:pt-8 sm2:pt-3;
+		}
+		> div:nth-last-child(1) {
+			@apply text-right xl2:text-center;
+		}
+	}
+	.protection {
+		font-family: 'Montserrat';
+		@apply flex text-right flex-col pt-8 text-xs;
+		> a {
+			@apply underline;
+		}
+	}
+}
