@@ -1,17 +1,16 @@
-import cn from 'clsx'
 import Image from 'next/image'
 
 import { Heading } from '@/components/ui'
 
-import { educate, functional, salles } from '@/assets/images/svg'
+import { educate, functional, salles } from '@/assets/images'
 
 import styles from './Decide.module.scss'
 
 const Decide = () => {
 	return (
 		<section className={styles.decide}>
-			<div className="blob blobOrange" />
-			<Heading title="Мы решаем проблемы" />
+			<div className='blob blobOrange' />
+			<Heading title='Мы решаем проблемы' />
 			<div className={styles.intro}>
 				<p>
 					<span>99% компаний откладывают внедрение AmoCRM </span>
@@ -57,7 +56,7 @@ const Decide = () => {
 				</p>
 				<div>
 					<div>
-						<Image src={functional} width={70} height={70} alt="Functional" />
+						<Image src={functional} width={70} height={70} alt='Functional' />
 						<p>Продумаем функционал</p>
 						<p>
 							Составим ТЗ с продуманным функционалом, что сократит ваш бюджет
@@ -65,7 +64,7 @@ const Decide = () => {
 						</p>
 					</div>
 					<div>
-						<Image src={educate} width={70} height={70} alt="Educate" />
+						<Image src={educate} width={70} height={70} alt='Educate' />
 						<p>Обучим до результата</p>
 						<p>
 							Составим подробную инструкцию по работе с решениями. Обучим одного
@@ -73,7 +72,7 @@ const Decide = () => {
 						</p>
 					</div>
 					<div>
-						<Image src={salles} width={70} height={70} alt="Salles" />
+						<Image src={salles} width={70} height={70} alt='Salles' />
 						<p>Настроим продажи на максимум</p>
 						<p>
 							Сделаем работу отдела системной и легко прогнозируемой,

@@ -3,9 +3,7 @@ import { Squash as Hamburger } from 'hamburger-react'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 
-import telegram from '@/assets/images/svg/telegram.svg'
-import viber from '@/assets/images/svg/viber.svg'
-import whatsapp from '@/assets/images/svg/whatsapp.svg'
+import { telegram, viber, whatsapp } from '@/assets/images'
 
 import styles from './Navigation.module.scss'
 
@@ -25,38 +23,38 @@ const Menu = () => {
 			<div className={cn(styles.menu, { [styles.activeMenu]: isOpen })}>
 				<ul className={styles.nav}>
 					<li>
-						<a href="#">Услуги </a>
+						<a href='#'>Услуги </a>
 					</li>
 					<li>
-						<a href="#">Виджеты</a>
+						<a href='#'>Виджеты</a>
 					</li>
 					<li>
-						<a href="#">Интеграции </a>
+						<a href='#'>Интеграции </a>
 					</li>
 					<li>
-						<a href="#">Кейсы </a>
+						<a href='#'>Кейсы </a>
 					</li>
 					<li>
-						<a href="#">Сертификаты </a>
+						<a href='#'>Сертификаты </a>
 					</li>
 				</ul>
 				<div>
-					<a href="tel:+74954714163">+7 495 471-41-63</a>
+					<a href='tel:+74954714163'>+7 495 471-41-63</a>
 				</div>
 				<ul className={styles.soical}>
 					<li>
-						<a href="#">
-							<Image src={telegram} width={20} height={20} alt="Telegram" />
+						<a href='#'>
+							<Image src={telegram} width={20} height={20} alt='Telegram' />
 						</a>
 					</li>
 					<li>
-						<a href="#">
-							<Image src={viber} width={20} height={20} alt="Viber" />
+						<a href='#'>
+							<Image src={viber} width={20} height={20} alt='Viber' />
 						</a>
 					</li>
 					<li>
-						<a href="#">
-							<Image src={whatsapp} width={20} height={20} alt="Whatsapp" />
+						<a href='#'>
+							<Image src={whatsapp} width={20} height={20} alt='Whatsapp' />
 						</a>
 					</li>
 				</ul>

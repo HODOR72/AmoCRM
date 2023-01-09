@@ -18,7 +18,7 @@ module.exports = {
 			blue: '#4077F3',
 		},
 		screens: {
-			max: { max: '1430px'},
+			max: { max: '1430px' },
 			xxl: { max: '1280px' },
 			xxl2: { max: '960px' },
 			xxl3: { max: '913px' },
@@ -29,6 +29,15 @@ module.exports = {
 			sm2: { max: '500px' },
 			sm3: { max: '400px' },
 		},
+		keyframes: {
+			fade: {
+				from: { opacity: 0 },
+				to: { opacity: 1 },
+			},
+		},
+		animation: {
+			fade: 'fade .5s ease-in-out'
+		}
 	},
 	plugins: [],
 }

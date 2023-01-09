@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import logo from '@/assets/images/svg/logo_welbex.svg'
+import { logo } from '@/assets/images'
 
 import styles from './Logo.module.scss'
 

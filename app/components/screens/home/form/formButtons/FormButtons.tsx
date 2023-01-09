@@ -23,10 +23,10 @@ const FormButtons: FC<IFormButtons> = ({
 			<p className={styles.text}>{title}</p>
 			<div className={styles.wrapper}>
 				{values.map((value, i) => (
-					<div className={cn(styles.radioBtn, { [styles.radioBtnBig]: isBig })}>
+					<div className={cn(styles.radioBtn, { [styles.radioBtnBig]: isBig })} key={i}>
 						<input
 							id={`${name}-${i}`}
-							type="radio"
+							type='radio'
 							name={name}
 							defaultChecked={checked && i == 0}
 							onChange={() => setChecked(!checked)}

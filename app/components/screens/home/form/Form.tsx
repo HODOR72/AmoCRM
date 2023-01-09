@@ -9,7 +9,7 @@ import FormTel from './formTel/FormTel'
 const Form = () => {
 	return (
 		<section className={styles.form}>
-			<Heading title="Бесплатный аудит" />
+			<Heading title='Бесплатный аудит' />
 			<div>
 				<div className={styles.intro}>
 					<p>
@@ -21,12 +21,12 @@ const Form = () => {
 					<p>И получите предложение по решению вашей задачи</p>
 				</div>
 				<form>
-					<FormTel text="Заказать аудит" />
+					<FormTel text='Заказать аудит' />
 				</form>
 			</div>
 			<div>
-				<div className="blob blobRed" />
-				<Heading title="Расчёт стоимости" />
+				<div className='blob blobRed' />
+				<Heading title='Расчёт стоимости' />
 				<div>
 					<div>
 						<div className={styles.intro}>
@@ -40,7 +40,7 @@ const Form = () => {
 							<p>И сэкономьте 80% своего времени.</p>
 						</div>
 						<div className={styles.canvas}>
-							<Spline scene="https://prod.spline.design/j0ck5N-tLs3SgD2q/scene.splinecode" />
+							<Spline scene='https://prod.spline.design/j0ck5N-tLs3SgD2q/scene.splinecode' />
 						</div>
 					</div>
 					<div>

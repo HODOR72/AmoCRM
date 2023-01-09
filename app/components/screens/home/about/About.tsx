@@ -5,8 +5,8 @@ import styles from './About.module.scss'
 const About = () => {
 	return (
 		<section className={styles.about}>
-			<div className="blob blobRed" />
-			<Heading title="О нас" />
+			<div className='blob blobRed' />
+			<Heading title='О нас' />
 			<p>
 				<span>WelbeX — крупный интегратор ACRM</span> в Росcии и ещё 8 странах
 			</p>

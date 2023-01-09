@@ -1,8 +1,10 @@
-import Spline from '@splinetool/react-spline'
+import dynamic from 'next/dynamic'
 
 import { Button } from '@/components/ui'
 
 import styles from './Header.module.scss'
+
+const Spline = dynamic(() => import('@splinetool/react-spline'))
 
 const Header = () => {
 	return (

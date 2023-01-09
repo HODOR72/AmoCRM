@@ -1,7 +1,7 @@
 .header {
-	@apply flex justify-between items-center flex-wrap xxl:justify-around;
+	@apply flex justify-between items-center animate-fade flex-wrap xxl:justify-around;
 	.intro {
-		@apply max-w-[360px] xl:text-center;
+		@apply max-w-[360px] xl:text-center animate-fade;
 		> h1 {
 			@apply font-normal text-5xl mb-[30px] xl:mb-2.5 sm3:text-3xl sm3:mb-0;
 			> span {
@@ -18,7 +18,7 @@
 		}
 	}
 	.canvas {
-		@apply w-[500px] h-[500px] xl2:h-[400px];
+		@apply w-[500px] min-w-[500px] h-[500px] min-h-[500px] xl2:h-[400px] xl2:min-h-[400px];
 	}
 	.info {
 		@apply max-w-[400px] w-full xxl:mx-auto xxl:max-w-full xl2:max-w-[400px];
@@ -27,7 +27,6 @@
 			> span {
 				background: linear-gradient(#fcb045 36.99%, #fd1d1d 100%),
 					linear-gradient(0deg, #e4e5ea, #e4e5ea);
-
 				-webkit-background-clip: text;
 				-webkit-text-fill-color: transparent;
 				@apply uppercase text-xl font-medium;
