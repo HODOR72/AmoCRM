@@ -36,8 +36,8 @@ module.exports = {
 			},
 		},
 		animation: {
-			fade: 'fade .5s ease-in-out'
-		}
+			fade: 'fade .5s ease-in-out',
+		},
 	},
 	plugins: [],
 }

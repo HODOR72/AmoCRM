@@ -9,7 +9,7 @@
 	@apply mb-[30px] py-5 px-3.5 outline-none font-normal;
 }
 .input::placeholder {
-	@apply text-darkGray text-sm;
+	@apply text-darkGray text-sm sm:text-xs;
 }
 .wrapper {
 	@apply flex items-center sm:flex-col sm:justify-center;

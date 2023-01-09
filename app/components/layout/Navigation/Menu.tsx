@@ -44,17 +44,17 @@ const Menu = () => {
 				<ul className={styles.soical}>
 					<li>
 						<a href='#'>
-							<Image src={telegram} width={20} height={20} alt='Telegram' />
+							<Image src={telegram} width={20} height={20} alt='Telegram' draggable={false} />
 						</a>
 					</li>
 					<li>
 						<a href='#'>
-							<Image src={viber} width={20} height={20} alt='Viber' />
+							<Image src={viber} width={20} height={20} alt='Viber' draggable={false} />
 						</a>
 					</li>
 					<li>
 						<a href='#'>
-							<Image src={whatsapp} width={20} height={20} alt='Whatsapp' />
+							<Image src={whatsapp} width={20} height={20} alt='Whatsapp' draggable={false} />
 						</a>
 					</li>
 				</ul>

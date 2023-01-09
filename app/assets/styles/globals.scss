@@ -16,8 +16,11 @@ html,
 body {
 	font-family: 'Inter', sans-serif;
 	background: #0e1014;
-	overflow-x: hidden;
+
 	@apply p-0 m-0 box-border text-gray font-medium;
+}
+body {
+	overflow-x: hidden;
 }
 
 a {
@@ -68,11 +71,10 @@ canvas {
 }
 
 .hide {
-	@apply xl:overflow-hidden xl:overflow-x-auto;
+	@apply xl:overflow-hidden;
 	touch-action: none;
 	-ms-touch-action: none;
 }
-
 .blob {
 	opacity: 0.5;
 	filter: blur(245.5px);

@@ -56,7 +56,7 @@ const Decide = () => {
 				</p>
 				<div>
 					<div>
-						<Image src={functional} width={70} height={70} alt='Functional' />
+						<Image src={functional} width={70} height={70} alt='Functional' draggable={false} />
 						<p>Продумаем функционал</p>
 						<p>
 							Составим ТЗ с продуманным функционалом, что сократит ваш бюджет
@@ -64,7 +64,7 @@ const Decide = () => {
 						</p>
 					</div>
 					<div>
-						<Image src={educate} width={70} height={70} alt='Educate' />
+						<Image src={educate} width={70} height={70} alt='Educate' draggable={false} />
 						<p>Обучим до результата</p>
 						<p>
 							Составим подробную инструкцию по работе с решениями. Обучим одного
@@ -72,7 +72,7 @@ const Decide = () => {
 						</p>
 					</div>
 					<div>
-						<Image src={salles} width={70} height={70} alt='Salles' />
+						<Image src={salles} width={70} height={70} alt='Salles' draggable={false} />
 						<p>Настроим продажи на максимум</p>
 						<p>
 							Сделаем работу отдела системной и легко прогнозируемой,
